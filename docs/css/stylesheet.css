@@ -26,7 +26,6 @@ body {
     transform-origin: center;
 }
 
-
 nav {
     background: #F3F3F3;
     text-align: center;
@@ -81,4 +80,52 @@ nav {
 .about-box p {
     font-size: 16px;
     line-height: 1.5;
+}
+
+/* Button styles */
+.button-box {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.button-box fieldset {
+    display: inline-block;
+    padding: 20px;
+    border: 5px solid #424242;
+    background: #ffffff;
+}
+
+.toggle-span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-family: "Analog Whispers", serif;
+    font-size: 16px;
+    cursor: pointer;
+    border: 5px solid #424242;
+    background: #F3F3F3;
+}
+
+.toggle-span:hover {
+    background: #8E8D93;
+}
+
+/* Buttons when toggled change color */
+.toggle-span.on {
+    border-color: #098956;
+    background: #098956;
+}
+
+/* Toggle Effects */
+.opacity {
+    opacity: 0.3;
+}
+
+.alt-background {
+    background: #424242 !important; /* Found that marking as !important overrides other css to guarantee effect */
+    color: #ffffff;
+}
+
+.italicized {
+    font-style: italic;
 }
