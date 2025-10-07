@@ -129,3 +129,12 @@ nav {
 .italicized {
     font-style: italic;
 }
+
+/* Makes the circle shrink when hovering */
+.circle {
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(0.7);
+}
