@@ -8,7 +8,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background: #F3F3F3;
-    overflow-y: auto; /* allows vertical scrolling */
+    overflow-y: auto;
 }
 
 .logo-container {
@@ -56,9 +56,8 @@ nav {
 .contact-link {
     color: #0130A5;
 }
-
 .webessay-link {
-    color: #098956
+    color: #098956;
 }
 
 .navbar li a:hover {
@@ -86,7 +85,6 @@ nav {
     line-height: 1.5;
 }
 
-/* Button styles */
 .button-box {
     text-align: center;
     margin: 80px auto;
@@ -114,19 +112,17 @@ nav {
     background: #8E8D93;
 }
 
-/* Buttons when toggled change color */
 .toggle-span.on {
     border-color: #098956;
     background: #098956;
 }
 
-/* Toggle Effects */
 .opacity {
     opacity: 0.3;
 }
 
 .alt-background {
-    background: #424242 !important; /* Found that marking as !important overrides other css to guarantee effect */
+    background: #424242 !important;
     color: #ffffff;
 }
 
@@ -134,7 +130,6 @@ nav {
     font-style: italic;
 }
 
-/* Makes the circle shrink when hovering */
 .circle {
     transition: transform 0.3s ease;
 }
@@ -152,7 +147,6 @@ nav {
     pointer-events: none;
 }
 
-/* Essay */
 .essay-container {
     max-width: 900px;
     margin: 40px auto;
@@ -200,7 +194,6 @@ nav {
     font-size: 18px;
 }
 
-/* Zotero Button */
 .zotero-button {
     display: block;
     width: fit-content;
@@ -216,4 +209,22 @@ nav {
 .zotero-button:hover {
     background: #8E8D93;
     color: #ffffff;
+}
+
+.resource {
+    margin-top: 20px;
+    padding: 15px;
+    border: 3px solid #424242;
+    background: #F9F9F9;
+}
+
+.resource-link {
+    font-size: 20px;
+    color: #098956;
+    text-decoration: none;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+    color: #B32B59;
 }
