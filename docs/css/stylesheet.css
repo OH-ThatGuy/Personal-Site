@@ -120,12 +120,10 @@ nav {
 .opacity {
     opacity: 0.3;
 }
-
 .alt-background {
     background: #424242 !important;
     color: #ffffff;
 }
-
 .italicized {
     font-style: italic;
 }
@@ -133,7 +131,6 @@ nav {
 .circle {
     transition: transform 0.3s ease;
 }
-
 .circle:hover {
     transform: scale(0.7);
 }
@@ -173,6 +170,7 @@ nav {
 .essay-section h2 {
     font-size: 28px;
     margin-top: 0;
+    color: #B32B59;
 }
 
 .essay-section p {
@@ -227,4 +225,17 @@ nav {
 .resource-link:hover {
     text-decoration: underline;
     color: #B32B59;
+}
+
+.image-container {
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.essay-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #424242;
+    background: #ffffff;
+    box-shadow: 6px 6px 0 #8E8D93;
 }
