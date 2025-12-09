@@ -165,6 +165,12 @@ nav {
     padding: 20px;
     margin-bottom: 40px;
     background: #ffffff;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.essay-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 .essay-section h2 {
