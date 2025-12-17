@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="buttons.js" defer></script>
+        <script src="returnTop.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <a href="index.html" class="home-link">Home</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="portfolio-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="contact-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="essay-container">
+            <h1>Portfolio</h1>
+            <section class="essay-section">
+                <h2>AI Video Editing Web Guide</h2>
+                <p>This is a detailed guide on AI Video Editing with some helpful links and
+                    resources.</p>
+                <a href="webessay.html" class="resource-link">AI Video Editing Web Guide</a>
+                <div class="image-container">
+                    <img src="images/Software.jpg" alt="Various Video Editing Software"
+                        class="essay-image">
+                </div>
+            </section>
+            <section class="essay-section">
+                <h2>React + Vite Project</h2>
+                <p>This site was created using JavaScript and Vite + React. It lets you explore
+                    various areas from the game Dark Souls II.</p>
+                <a href="https://oh-thatguy.github.io/my-react-app/" class="resource-link">Dark
+                    Souls II Area Explorer</a>
+                <div class="image-container">
+                    <img src="images/react.png" alt="Vite/React + Dark Souls II" class="essay-image"
+                    >
+                </div>
+            </section>
+            <section class="essay-section">
+                <h2>Test Features</h2>
+                <p>Below are some interactive elements I experimented with. These might break some
+                    site elements so click them at your own risk.</p>
+                <div class="button-box">
+                    <fieldset>
+                        <span id="opacitySpan" class="toggle-span">Opacity</span>
+                        <span id="backgroundSpan" class="toggle-span">Color</span>
+                        <span id="italicSpan" class="toggle-span">Italic</span>
+                    </fieldset>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                        style="width: 100px; height: 100px; margin: 20px auto;">
+                        <rect x="10" y="10" width="80" height="80" fill="none" stroke="#424242"
+                            stroke-width="3"/>
+                        <line x1="50" y1="20" x2="50" y2="80" stroke="#424242" stroke-width="3">
+                            <animate attributeName="x1" values="50;80;50;20;50" dur="4s"
+                                repeatCount="indefinite"/>
+                            <animate attributeName="x2" values="50;20;50;80;50" dur="4s"
+                                repeatCount="indefinite"/>
+                        </line>
+                    </svg>
+                    <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                        style="width: 100px; height: 100px; margin: 20px auto;">
+                        <circle cx="50" cy="50" r="30" fill="none" stroke="#424242" stroke-width="3"
+                        />
+                    </svg>
+                </div>
+            </section>
+        </div>
+        <div id="returnTop">↑</div>
+        <div class="cc">
+            <a href="https://oh-thatguy.github.io/Personal-Site/">OH_Site</a> © 2025 by <a
+                href="https://example.com">Owen Helm</a> is licensed under <a
+                href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img
+                src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""
+                style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+                src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""
+                style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+                src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt=""
+                style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+                src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt=""
+                style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        </div>
+        <div class="badge-container">
+            <a href="https://www.aihonestybadge.com" target="_blank" rel="noopener">
+                <img src="https://www.aihonestybadge.com/badges/no-ai.svg" alt="No AI Badge">
+            </a>
+        </div>
+    </body>
+</html>
